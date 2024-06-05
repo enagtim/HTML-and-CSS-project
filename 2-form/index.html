@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Форма регистрации</title>
-    <link rel="stylesheet" href= ../2-form/styles/form.css
+    <link rel="stylesheet" href=../2-form/styles/form.css 
 </head>
 
 <body>
@@ -13,27 +13,26 @@
         <form action="#" method="get">
             <h1>Регистрация</h1>
             <p>Уже есть аккаунт?<a id="sign_up" href="#">Войти</a></p>
-            <div>
+            <div class="company">
                 <input type="text" name="company_name" id="company_name" placeholder="Введите название компании" />
             </div>
-            <div>
+            <div class="name-lastname">
                 <input type="text" name="name" id="name" placeholder="Имя" />
-                <input type="text" name="last_name" id="last_name" placeholder="Фамилия" />
+                <input type="text" name="lastname" id="lastname" placeholder="Фамилия" />
             </div>
             <div>
                 <input type="email" name="email" id="email" placeholder="E-mail" required />
             </div>
             <div>
-                <button type="submit">Зарегистрироваться</button>
+                <button id="sign_up-button" type="submit">Зарегистрироваться</button>
                 <img src="../img/Arrow.png" alt="Стрелка кнопки зарегистрироваться" />
             </div>
-            <div>
+            <div class="checkbox">
                 <input type="checkbox" name="checkbox" id="сheckbox" />
                 <label for="agree">Я прочитал и принимаю</label>
                 <a id="uzer_rule" href="#">Условия использование</a>
             </div>
         </form>
     </main>
-</body>
 
 </html>
