@@ -80,19 +80,13 @@ p {
     border-right: 1px solid #FFF;
     ;
     height: 26px;
-    padding-left: 11px;
-    padding-top: 9px;
-    padding-bottom: 9px;
 }
-
-#lastname {
-
+#lastname { 
+    font-size: 16px;
+    font-style: italic;
     border: none;
     background: #F5F5F5;
     height: 26px;
-    padding-right: 35px;
-    padding-top: 9px;
-    padding-bottom: 9px;
 }
 
 #email {
@@ -115,17 +109,12 @@ p {
     font-size: 18px;
     text-decoration: underline;
     width: 65px;
-    height: 26px;
 }
 
 #uzer_rule {
     color: #089FE0;
     font-size: 14px;
     text-decoration: none;
-}
-.checkbox { 
-    width: 394px;
-    height: 19px;
 }
 #checbox { 
     width: 16px;
