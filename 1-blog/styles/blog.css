@@ -13,8 +13,8 @@ p {
     padding: 0;
 }
 nav { 
-    padding: 72px 181px ;
-    margin-bottom: 80px ;
+    padding: 72px 180px 28px 180px;
+    margin-bottom: 52px ;
 }
 nav ul { 
     list-style: none;
