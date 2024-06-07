@@ -1,0 +1,91 @@
+/* Общие стили */
+body {
+    color: #FFF;
+    background: linear-gradient(180deg, #374151 0%, #111827 100%);
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: normal;
+    line-height: normal;
+    margin: 0;
+}
+p {
+    margin: 0;
+    padding: 0;
+}
+nav { 
+    padding: 72px 180px 28px 180px;
+    margin-bottom: 52px ;
+}
+nav ul { 
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+form input { 
+    background: none;
+    border:none;
+    opacity: 0.6;
+    font-size: 16px;
+    padding: 0;
+}
+h1 { 
+    margin: 0;
+}
+h1 { 
+    font-size: 24px;
+    line-height: 38px;
+    margin-bottom: 30px;
+}
+footer { 
+   font-size: 16px;
+   line-height: 28px;
+   margin-bottom: 77px;
+   opacity: 0.6;
+}
+.blog-link {
+    color: #FFF;
+    text-decoration: none;
+    font-size: 18px;
+}
+.header-link { 
+    font-size: 16px;
+    color: #FFF;
+    text-decoration: none;
+}
+.form { 
+    border-radius: 100px;
+    background: rgba(31, 41, 55, 0.60);
+    width: 224px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    padding-left: 18px;
+}
+#data-article { 
+    font-size: 16px;
+    opacity: 0.6;
+    margin-bottom: 14px;
+}
+.author-article { 
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 28px;
+    margin-top: 30px;
+}
+#specialization { 
+    font-size: 14px;
+    opacity: 0.6;
+}
+.img {
+    margin-left: 272px;
+    margin-right: 272px;
+    margin-bottom: 69px;
+}
+.text #hero-text { 
+    font-size: 20px;
+    line-height: 32px;
+}
+.text { 
+    font-size: 16px ;
+    line-height: 30px;
+    margin-bottom: 100px;
+}
