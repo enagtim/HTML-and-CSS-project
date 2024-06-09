@@ -42,6 +42,18 @@ footer {
    margin-bottom: 77px;
    opacity: 0.6;
 }
+.Avatar { 
+    box-sizing: border-box;
+    background:#4B5563;
+    color: #FFF;
+    font-size: 18px;
+    font-family: "Source Sans Pro";
+    font-weight: 600;
+    width: 35px;
+    height: 35px;
+    padding: 6px 12px 6px 12px;
+    border-radius: 3px;
+}
 .blog-link {
     color: #FFF;
     text-decoration: none;
