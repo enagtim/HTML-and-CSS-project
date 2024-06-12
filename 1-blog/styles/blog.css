@@ -1,4 +1,7 @@
 /* Общие стили */
+*{ 
+    box-sizing: border-box;
+}
 body {
     color: #FFF;
     background: linear-gradient(180deg, #374151 0%, #111827 100%);
@@ -21,12 +24,31 @@ nav ul {
     padding: 0;
     margin: 0;
 }
-form input { 
-    background: none;
-    border:none;
-    opacity: 0.6;
+.form { 
+    position: relative;
+}
+input {
     font-size: 16px;
-    padding: 0;
+    color: #FFF;
+    opacity: 0.6;
+    border: none;
+    border-radius: 100px;
+    background: rgba(31, 41, 55, 0.60);
+    width: 224px;
+    height: 40px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    padding-left: 49px;
+}
+.form img { 
+    position: absolute;
+    left: 18px;
+    top: 14px;
+}
+
+form input::placeholder {
+    color: #FFF;
+    opacity: 0.6;
 }
 h1 { 
     margin: 0;
@@ -43,7 +65,6 @@ footer {
    opacity: 0.6;
 }
 .Avatar { 
-    box-sizing: border-box;
     background:#4B5563;
     color: #FFF;
     font-size: 18px;
@@ -63,14 +84,6 @@ footer {
     font-size: 16px;
     color: #FFF;
     text-decoration: none;
-}
-.form { 
-    border-radius: 100px;
-    background: rgba(31, 41, 55, 0.60);
-    width: 224px;
-    padding-top: 11px;
-    padding-bottom: 11px;
-    padding-left: 18px;
 }
 #data-article { 
     font-size: 16px;
