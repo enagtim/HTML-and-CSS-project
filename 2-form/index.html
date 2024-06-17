@@ -5,34 +5,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Форма регистрации</title>
-    <link rel="stylesheet" href=../2-form/styles/form.css 
+    <link rel="stylesheet" href=../2-form/styles/form.css />
 </head>
 
 <body>
     <main>
         <form action="#" method="get">
-            <h1>Регистрация</h1>
-            <p>Уже есть аккаунт?<a id="sign_up" href="#">Войти</a></p>
-            <div">
-                <input type="text" name="company_name" id="company_name" placeholder="Введите название компании" />
+            <div class="header"> 
+                <div class="hero-text">Регистрация</div>
+                <div class="subtitle">Уже есть аккаунт?
+                    <a class=sign-up-link href="#">Войти</a>
+                </div>
             </div>
-            <div class="name-lastname">
-                <input type="text" name="name" id="name" placeholder="Имя" />
-                <input type="text" name="lastname" id="lastname" placeholder="Фамилия" />
-            </div>
-            <div>
-                <input type="email" name="email" id="email" placeholder="E-mail" required />
-            </div>
-            <div>
-                <button id="sign_up-button" type="submit">Зарегистрироваться</button>
-                <img src="../img/Arrow.png" alt="Стрелка кнопки зарегистрироваться" />
-            </div>
-            <div>
-                <input type="checkbox" name="checkbox" id="сheckbox" />
-                <label for="agree">Я прочитал и принимаю</label>
-                <a id="uzer_rule" href="#">Условия использование</a>
+            <div class="field">
+                <div>
+                    <input type="text" name="company_name" id="company_name" placeholder="Введите название компании" />
+                </div>
+                <div class="name-lastname">
+                    <input type="text" name="name" id="name" placeholder="Имя" />
+                    <input type="text" name="lastname" id="lastname" placeholder="Фамилия" />
+                </div>
+                <div>
+                    <input type="email" name="email" id="email" placeholder="E-mail" required />
+                </div>
+                <div class="button">
+                    <button type="submit">Зарегистрироваться</button>
+                    <img src="../img/Arrow.png" alt="Стрелка кнопки зарегистрироваться" />
+                </div>
+                <div class="link-checkbox">
+                    <input type="checkbox" name="checkbox" id="сheckbox" />
+                    <label for="checkbox">Я прочитал и принимаю</label>
+                    <a id="uzer_rule" href="#">Условия использование</a>
+                </div>
             </div>
         </form>
     </main>
+</body>
 
 </html>
