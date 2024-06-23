@@ -1,7 +1,8 @@
 /* Общиие стили */
-* { 
+* {
     box-sizing: border-box;
 }
+
 body {
     background: linear-gradient(243deg, #FDC5C5 25.45%, rgba(242, 152, 222, 0.00) 100%), linear-gradient(243deg, #FFA5A5 32.96%, rgba(255, 255, 255, 0.00) 82.03%), #F39494;
     font-family: "Open Sans";
@@ -20,7 +21,8 @@ main {
     margin: 225px 429px;
     padding: 72px 93px 91px 93px;
 }
-form { 
+
+form {
     display: flex;
     flex-flow: column;
 }
@@ -30,6 +32,7 @@ form {
 .header {
     margin-bottom: 47px;
 }
+
 .hero-text {
     color: #333;
     font-size: 36px;
@@ -38,12 +41,14 @@ form {
     height: 54px;
     text-align: center;
 }
+
 .subtitle {
     color: #666;
     font-size: 18px;
     width: 100%;
     text-align: center;
 }
+
 .sign-up-link {
     color: #089FE0;
     font-size: 18px;
@@ -51,11 +56,13 @@ form {
     width: 65px;
     padding-left: 6px;
 }
+
 .field {
     display: flex;
     flex-flow: column;
     row-gap: 22px;
 }
+
 #company_name {
     color: #333;
     background-color: #FFF;
@@ -67,17 +74,21 @@ form {
     border: 1px solid #F5F5F5;
     padding: 9px 0px 9px 11px;
 }
+
 #company_name:focus {
     outline-color: #FDC5C5;
 }
-#company_name::placeholder { 
+
+#company_name::placeholder {
     color: #999;
 }
+
 .name-lastname {
     display: flex;
     flex-direction: row;
     border-radius: 5px;
 }
+
 #name {
     color: #333;
     width: 100%;
@@ -89,12 +100,15 @@ form {
     border-right: 1px solid #FFF;
     padding: 9px 0px 9px 11px;
 }
-#name:focus { 
+
+#name:focus {
     outline-color: #FDC5C5;
 }
+
 #name::placeholder {
     color: #999;
 }
+
 #lastname {
     color: #333;
     width: 100%;
@@ -105,9 +119,11 @@ form {
     background: #F5F5F5;
     padding: 9px 0px 9px 11px;
 }
+
 #lastname:focus {
     outline-color: #FDC5C5;
 }
+
 #lastname::placeholder {
     color: #999;
 }
@@ -123,15 +139,19 @@ form {
     border-radius: 5px;
     padding: 9px 0px 9px 11px;
 }
+
 #email:focus {
     outline-color: #FDC5C5;
 }
+
 #email::placeholder {
     color: #999;
 }
+
 .button {
     position: relative;
 }
+
 .button button {
     font-size: 18px;
     width: 100%;
@@ -142,11 +162,13 @@ form {
     border: none;
     border-radius: 5px;
 }
+
 .button img {
     position: absolute;
     top: 8px;
     right: 24px;
 }
+
 .link-checkbox {
     display: flex;
     flex-direction: row;
@@ -154,10 +176,18 @@ form {
     justify-content: center;
     column-gap: 4px;
 }
-.link-checkbox label { 
-    color: #666;
-    font-size: 14px;   
+
+#checkbox {
+    border-radius: 5px;
+    border: 1px solid #EEE;
+    background: #F5F5F5;
 }
+
+.link-checkbox label {
+    color: #666;
+    font-size: 14px;
+}
+
 #uzer_rule {
     color: #089FE0;
     font-size: 14px;
