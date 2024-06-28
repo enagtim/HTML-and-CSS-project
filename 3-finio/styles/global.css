@@ -1,0 +1,16 @@
+:root {
+    --primary-color: #357EFE;
+    --secondary-color: #FFF;
+    --secondary-color-white-dizabled: rgba(255, 255, 255, 0.80)
+
+}
+*{
+    box-sizing: border-box;
+}
+body {
+    max-width: 1920px;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    background:var(--primary-color);
+    margin: 0;
+}
