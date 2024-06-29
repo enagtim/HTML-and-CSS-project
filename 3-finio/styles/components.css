@@ -1,10 +1,22 @@
 .main-button {
-    background-color: var(--secondary-color);
-    font-size: 17px;
-    font-weight: 800;
-    line-height: 140%;
-    color: var(--primary-color);
+    cursor: pointer;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--accent-color);
     padding: 12px 32px;
-    border-radius: 34px;
+    border-radius: var(--border-r-34);
     border: none;
+}
+.main-button a  {
+    text-decoration: none;
+    color: var(--primary-color);
+    font-size: var(--font-s-17);
+    font-weight: var(--font-w-800);
+    line-height: var(--line-h-140);
+} 
+.section__wrapper {
+    max-width: var(--layout-width);
+    margin: 0 auto;
+    padding: 0 24px;
 }

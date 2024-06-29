@@ -18,32 +18,51 @@
 <body>
     <header class="header">
         <div class="header__wrapper">
-            <a class="hero-link-Finio" href="#" aria-label="Вход в личный кабинет">
-                <span>Finio</span>
+            <a class="header__wrapper__logo" href="#" aria-label="Вход в личный кабинет">
+                Finio
             </a>
             <nav>
-                <ul class="wrapper__list">
+                <ul class="header__wrapper__list-nav">
                     <li>
-                        <a class="wrapper__list__link" href="#">Возможности</a>
+                        <a class="header__wrapper__list-nav__link" href="#">Возможности</a>
                     </li>
                     <li>
-                        <a class="wrapper__list__link" href="#">Тарифы</a>
+                        <a class="header__wrapper__list-nav__link" href="#">Тарифы</a>
                     </li>
                     <li>
-                        <a class="wrapper__list__link" href="#">Отзывы</a>
+                        <a class="header__wrapper__list-nav__link" href="#">Отзывы</a>
                     </li>
                     <li>
-                        <a class="wrapper__list__link" href="#">Поддержка клиентов</a>
+                        <a class="header__wrapper__list-nav__link" href="#">Поддержка клиентов</a>
                     </li>
                 </ul>
             </nav>
-            <button class="main-button">Личный кабинет</button>
-            <button class="header__button-mobile-menu">
-                <img src="./images/burger-menu.svg" alt="Иконка меню">
+            <button type="submit" class="main-button">
+                <a href="#">Личный кабинет</a>
             </button>
-         </div>
-           
+            <button class="header__button-mobile-menu">
+                <img src="./images/burger-menu.svg" alt="Иконка меню" />
+            </button>
+        </div>
     </header>
+    <section class="section">
+        <div class="section__wrapper section__wrapper_1">
+            <div class="section__wrapper__header">
+                <h1 class="section__wrapper__header__text">
+                    Простой финансовый <br /> учёт для продавцов на маркетплейсах
+                </h1>
+                <button type="submit" class="main-button">
+                    <a href="#">Попробовать 14 дней бесплатно</a>
+                </button>
+                <div class="section__wrapper__market">
+                    <img src="./images/Market Photo.svg" alt="Логотипы маркетплейсов" />
+                </div>
+            </div>
+            <div class="section__wrapper__hero-photo">
+                <img src="./images/Hero-Photo.png" alt="Фото главной страницы сервиса Finio" />
+            </div>
+        </div>
+    </section>
 </body>
 
 </html>

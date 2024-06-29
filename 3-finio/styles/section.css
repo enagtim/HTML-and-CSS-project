@@ -1,0 +1,17 @@
+.section__wrapper_1 {
+    display: flex;
+    gap: 18px;
+    justify-content: space-between;
+    margin-top: calc(113px - 40px);
+}
+.section__wrapper__header__text {
+    font-size: var(--font-s-40);
+    font-weight: var(--font-w-800);
+    line-height: var(---line-h-120);
+    color: var(--accent-color);
+    margin: 0;
+    margin-bottom: 32px;
+}
+.section__wrapper__market {
+    margin-top: 80px;
+}
