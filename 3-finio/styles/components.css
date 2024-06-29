@@ -3,14 +3,14 @@
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--accent-color);
+    background-color: var(--primary-color);
     padding: 12px 32px;
     border-radius: var(--border-r-34);
     border: none;
 }
 .main-button a  {
     text-decoration: none;
-    color: var(--primary-color);
+    color: var(--accent-color);
     font-size: var(--font-s-17);
     font-weight: var(--font-w-800);
     line-height: var(--line-h-140);
@@ -19,4 +19,7 @@
     max-width: var(--layout-width);
     margin: 0 auto;
     padding: 0 24px;
+}
+.section_light {
+    height: 100vh;
 }

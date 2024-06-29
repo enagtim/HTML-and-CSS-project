@@ -1,3 +1,6 @@
+.header {
+    background: var(--accent-color);
+}
 .header__wrapper {
     max-width: var(--layout-width);
     display: flex;
@@ -10,7 +13,7 @@
     font-size: 36px;
     font-weight: 900;
     line-height: var(--line-h-140);
-    color: var(--accent-color);
+    color: var(--primary-color);
     text-decoration: none;
     text-transform: uppercase;
     cursor: pointer;
@@ -28,10 +31,10 @@
     line-height: var(--line-h-140);
     font-weight: var(--font-w-500);
     text-decoration: none;
-    color:var(--accent-color-white-dizabled)
+    color:var(--primary-color-white-dizabled)
 }
 .header__wrapper__list-nav__link:hover {
-    color: var(--accent-color);
+    color: var(--primary-color);
 }
 .header__button-mobile-menu {
     display: none;
