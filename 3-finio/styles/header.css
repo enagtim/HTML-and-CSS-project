@@ -1,6 +1,7 @@
 .header {
     background: var(--accent-color);
 }
+
 .header__wrapper {
     max-width: var(--layout-width);
     display: flex;
@@ -49,7 +50,9 @@
 }
 @media (max-width: 1024px) {
     .header__wrapper {
-        padding: 24px 24px;
+        padding: 24px 0px;
+        border-bottom: 1px solid var(--color-header-border);
+        margin: 0px 24px
     }
     .header__button-mobile-menu {
         display: block;
@@ -62,9 +65,6 @@
     }
 }
 @media (max-width: 480px) {
-    .header__wrapper {
-        padding: 28px 24px;
-    }
     .header__wrapper__logo  {
         font-size: 24px;
     }
