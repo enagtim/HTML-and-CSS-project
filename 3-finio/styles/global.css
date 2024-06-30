@@ -3,7 +3,7 @@
     --accent-color: #357EFE;
     --primary-color: #FFF;
     --primary-color-white-dizabled: rgba(255, 255, 255, 0.80);
-
+    --color-header-border: #5593FE;
     /* layout */
 
     --layout-width: calc(1400px - 48px);
@@ -11,6 +11,7 @@
     /* font */
     --font-s-17: 17px;
     --font-s-18: 18px;
+    --font-s-20: 20px;
     --font-s-24: 24px;
     --font-s-40: 40px;
     --line-h-140: 140%;

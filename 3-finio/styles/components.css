@@ -1,20 +1,15 @@
 .main-button {
     cursor: pointer;
+    flex-wrap: nowrap;
     display: inline-flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
     background-color: var(--primary-color);
     padding: 12px 32px;
     border-radius: var(--border-r-34);
     border: none;
+    height: 48px;
 }
-.main-button a  {
-    text-decoration: none;
-    color: var(--accent-color);
-    font-size: var(--font-s-17);
-    font-weight: var(--font-w-800);
-    line-height: var(--line-h-140);
-} 
 .section__wrapper {
     max-width: var(--layout-width);
     margin: 0 auto;
