@@ -4,6 +4,9 @@
     --primary-color: #FFF;
     --primary-color-white-dizabled: rgba(255, 255, 255, 0.80);
     --color-header-border: #5593FE;
+    --color-border-gray: #F1F2F5;
+    --color-primary-black-text: #000;
+    --color-secondary-black-text: rgba(78, 93, 124, 0.50);
     /* layout */
 
     --layout-width: calc(1400px - 48px);
@@ -17,6 +20,7 @@
     --line-h-140: 140%;
     --line-h-120: 120%
     --font-w-500: 500;
+    --font-w-600: 600;
     --font-w-700: 700;
     --font-w-800: 800; 
 

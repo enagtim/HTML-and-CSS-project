@@ -15,6 +15,18 @@
     margin: 0 auto;
     padding: 0 24px;
 }
-.section_light {
-    height: 100vh;
+.section__wrapper__discription-text__item__text__header {
+    color: var(--color-primary-black-text);
+    font-size: var(--font-s-40);
+    font-weight: var(--font-w-600);
+    line-height: var(--line-h-120);
+    margin: 0;
+    margin-bottom: 24px;
+}
+.section__wrapper__discription-text__item__text__paragraph {
+    color: var(--color-secondary-black-text);
+    font-size: var(--font-s-18) ;
+    font-weight: var(--font-w-500);
+    line-height: var(--line-h-140);
+    margin: 0;
 }
