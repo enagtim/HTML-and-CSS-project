@@ -1,5 +1,5 @@
 /* Section-hero*/
-.section_blue {
+.section_blue_hero {
     background: var(--accent-color);
     /* clip-path: polygon(0 0, 100% 0, 100% 83%, 0 100%); */
 }
@@ -19,14 +19,6 @@
     margin: 0;
     margin-bottom: 32px;
 }
-
-.main-button_section_blue {
-    color: var(--accent-color);
-    font-size: var(--font-s-17);
-    font-weight: var(--font-w-800);
-    line-height: var(--line-h-140);
-}
-
 .section__wrapper__button {
     width: 100%;
     display: flex;
