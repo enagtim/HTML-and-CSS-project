@@ -19,20 +19,13 @@
     margin: 0;
     margin-bottom: 32px;
 }
-.section__wrapper__button {
-    width: 100%;
-    display: flex;
-}
-
 .section__wrapper__market {
-    display: flex;
     margin-top: 80px;
     margin-bottom: 83px;
 }
 
 .section__wrapper__hero-photo {
-    display: flex;
-    max-width: 100%;
+    width: 100%;
 }
 
 @media (max-width: 1300px) {
@@ -53,10 +46,6 @@
     .section__wrapper__hero-photo {
         flex-direction: column;
         align-items: center;
-    }
-
-    .section__wrapper__button {
-        justify-content: center;
     }
 }
 
@@ -105,8 +94,7 @@
 
 @media (max-width: 480px) {
     .section__wrapper__market {
-        transform: scale(0.9);
-        align-items: start;
+        max-width: 264px;
     }
 
     .main-button_section_blue {
