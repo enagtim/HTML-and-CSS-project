@@ -10,6 +10,8 @@
     /* layout */
 
     --layout-width: calc(1400px - 48px);
+    --max-w-100: 100%;
+    --width-100: 100%;
 
     /* font */
     --font-s-17: 17px;
@@ -17,6 +19,7 @@
     --font-s-20: 20px;
     --font-s-24: 24px;
     --font-s-32: 32px;
+    --font-s-34: 34px;
     --font-s-36: 36px;
     --font-s-40: 40px;
     --font-s-48: 48px;
@@ -36,7 +39,6 @@
     box-sizing: border-box;
 }
 body {
-    background-color: var(--primary-color);
     font-family: "Inter", sans-serif;
     font-style: normal;
     margin: 0;

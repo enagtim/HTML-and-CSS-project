@@ -19,6 +19,12 @@
     margin: 0 auto;
     padding: 0 24px;
 }
+.section_blue {
+    background: var(--accent-color);
+}
+.section {
+    background-color: var(--primary-color);
+}
 .section__wrapper__discription-text__item__text__header {
     color: var(--color-primary-black-text);
     font-size: var(--font-s-40);

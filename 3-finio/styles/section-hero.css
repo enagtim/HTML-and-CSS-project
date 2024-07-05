@@ -1,17 +1,17 @@
 /* Section-hero*/
-.section_blue_hero {
-    background: var(--accent-color);
-    /* clip-path: polygon(0 0, 100% 0, 100% 83%, 0 100%); */
-}
 
-.section__wrapper_1 {
+
+/* clip-path: polygon(0 0, 100% 0, 100% 83%, 0 100%); */
+
+
+.section__wrapper__1 {
     display: flex;
     gap: 18px;
     justify-content: space-between;
     padding-top: 73px;
 }
 
-.section__wrapper__header__text {
+.section__wrapper__1__hero__left-header-text {
     font-size: var(--font-s-40);
     font-weight: var(--font-w-800);
     line-height: var(---line-h-120);
@@ -19,67 +19,64 @@
     margin: 0;
     margin-bottom: 32px;
 }
-.section__wrapper__market {
+
+.section__wrapper__1__photo-market {
     margin-top: 80px;
     margin-bottom: 83px;
 }
 
-.section__wrapper__hero-photo {
-    width: 100%;
+.section__wrapper__1__hero-photo-right {
+    width: var(--width-100);
 }
 
 @media (max-width: 1300px) {
-    .section__wrapper_1 {
+    .section__wrapper__1 {
         flex-direction: column;
+        align-items: center;
     }
 
-    .section__wrapper__header {
+    .section__wrapper__1__hero {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
 
-    .section__wrapper__header__text {
+    .section__wrapper__1__hero__left-header-text {
         text-align: center;
-    }
-
-    .section__wrapper__hero-photo {
-        flex-direction: column;
-        align-items: center;
     }
 }
 
 @media (max-width: 1024px) {
-    .section__wrapper_1 {
+    .section__wrapper__1 {
         padding-top: 28px;
     }
 
-    .section__wrapper__market {
+    .section__wrapper__1__photo-market {
         margin-top: 56px;
     }
 }
 
 @media (max-width: 860px) {
-    .section__wrapper__header__text {
-        font-size: 34px;
+    .section__wrapper__1__hero__left-header-text {
+        font-size: var(--font-s-34)
     }
 
-    .section__wrapper__hero-photo {
+    .section__wrapper__1__hero-photo-right {
         display: none;
     }
 
-    .section__wrapper__market {
+    .section__wrapper__1__photo-market {
         margin-bottom: 110px;
     }
 }
 
 @media (max-width: 640px) {
-    .section__wrapper__header__text {
-        font-size: 32px;
+    .section__wrapper__1__hero__left-header-text {
+        font-size: var(--font-s-32);
         text-align: left;
     }
 
-    .section__wrapper__header {
+    .section__wrapper__1__hero {
         align-items: start;
     }
 
@@ -88,12 +85,12 @@
     }
 
     .main-button_section_blue {
-        max-width: 100%;
+        max-width: var(--max-w-100);
     }
 }
 
 @media (max-width: 480px) {
-    .section__wrapper__market {
+    .section__wrapper__1__photo-market {
         max-width: 264px;
     }
 
