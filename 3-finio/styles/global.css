@@ -9,7 +9,7 @@
     --color-secondary-black-text: rgba(78, 93, 124, 0.50);
     /* layout */
 
-    --layout-width: calc(1400px - 48px);
+    --layout-width: calc(1402px - 48px);
     --max-w-100: 100%;
     --width-100: 100%;
 
@@ -34,6 +34,7 @@
     /* border */
 
     --border-r-34: 34px;
+    --border-r-16: 16px;
 
 }
 
