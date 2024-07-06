@@ -1,0 +1,60 @@
+/* Section-main-3 */
+
+.section__wrapper__confidentiality {
+    display: flex;
+    gap: 78px;
+    padding: 126px 30px 81px 30px;
+    border-bottom: 1px solid var(--color-border-gray);
+    margin-bottom: 80px;
+}
+
+.section__wrapper__confidentiality__item__header {
+    color: var(--color-primary-black-text);
+    font-size: var(--font-s-32);
+    font-weight: var(--font-w-600);
+    line-height: var(--line-h-120);
+    margin-top: 24px;
+    margin-bottom: 20px;
+}
+
+.section__wrapper__confidentiality__item__paragraph {
+    margin: 0;
+    color: var(--color-secondary-black-text);
+    font-size: var(--font-s-17);
+    font-weight: var(--font-w-500);
+    line-height: var(--line-h-140);
+}
+
+@media (max-width:1300px) {
+    .section__wrapper__confidentiality {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section__wrapper__confidentiality__item {
+        max-width: 600px;
+    }
+
+}
+
+@media (max-width:1024px) {
+    .section__wrapper__confidentiality {
+        padding: 64px 0 48px 0;
+        gap: 32px;
+    }
+
+    .section__wrapper__confidentiality__item__header {
+        font-size: var(--font-s-28);
+    }
+
+}
+
+@media (max-width:640px) {
+    .section__wrapper__confidentiality {
+        align-items: start;
+    }
+
+    .section__wrapper__confidentiality__item img {
+        max-width: 64px;
+    }
+}

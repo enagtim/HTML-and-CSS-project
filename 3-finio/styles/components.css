@@ -4,7 +4,6 @@
     font-weight: var(--font-w-800);
     line-height: var(--line-h-140);
     cursor: pointer;
-    flex-wrap: nowrap;
     display: inline-flex;
     align-items: center;
     justify-content: center;

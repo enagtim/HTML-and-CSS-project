@@ -54,6 +54,9 @@
     .section__wrapper__1__photo-market {
         margin-top: 56px;
     }
+    .section__wrapper__1__hero button {
+        width: var(--width-100)
+    }
 }
 
 @media (max-width: 860px) {
@@ -80,12 +83,9 @@
         align-items: start;
     }
 
-    .section__wrapper__button {
-        justify-content: start;
-    }
-
-    .main-button_section_blue {
-        max-width: var(--max-w-100);
+    .section__wrapper__1__hero button {
+        justify-content: center;
+        width: var(--width-100)
     }
 }
 
@@ -94,7 +94,9 @@
         max-width: 264px;
     }
 
-    .main-button_section_blue {
-        white-space: nowrap;
+    .section__wrapper__1__hero button {
+        font-size: 16px;
+        width: var(--width-100);
+        padding: 12px 0;
     }
 }
