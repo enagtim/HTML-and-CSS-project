@@ -123,10 +123,10 @@
 }
 
 @media (max-width: 640px) {
-    .section__wrapper__discription-function__item__text {
+
+    .section__wrapper__discription-function-wrapper__item__text {
         font-size: var(--font-s-18);
     }
-
     .section__wrapper__discription-function-wrapper {
         align-items: start;
     }

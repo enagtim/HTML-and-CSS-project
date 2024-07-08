@@ -26,6 +26,7 @@
 }
 
 .section__wrapper__1__hero-photo-right {
+    max-width: 780px;
     width: var(--width-100);
 }
 
