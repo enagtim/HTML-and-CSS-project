@@ -9,6 +9,7 @@
     border-bottom: 1px solid var(--color-border-gray);
     margin-bottom: 80px;
 }
+
 .section__wrapper__confidentiality__item__header {
     color: var(--color-primary-black-text);
     font-size: var(--font-s-32);
@@ -25,11 +26,13 @@
     font-weight: var(--font-w-500);
     line-height: var(--line-h-140);
 }
+
 .section__wrapper__mobile-version-description {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
 .section__wrapper__mobile-version-description__header-text {
     color: var(--color-primary-black-text);
     font-size: var(--font-s-48);
@@ -38,6 +41,7 @@
     margin: 0;
     margin-bottom: 24px;
 }
+
 .section__wrapper__mobile-version-description__paragraph-text {
     color: var(--color-secondary-black-text);
     font-size: var(--font-s-17);
@@ -45,11 +49,18 @@
     line-height: var(--line-h-140);
     margin: 0;
     margin-bottom: 40px;
+    text-align: center;
 }
-.section__wrapper__mobile-version-description img {
+
+.section__wrapper__mobile-version-description__images {
     margin-bottom: 120px;
+}
+
+.section__wrapper__mobile-version-description__images img {
+    max-width: 1128px;
     width: var(--width-100);
 }
+
 @media (max-width:1300px) {
     .section__wrapper__confidentiality {
         flex-direction: column;
@@ -60,26 +71,61 @@
         max-width: 600px;
     }
 
+    .section__wrapper__mobile-version-description__images {
+        margin-bottom: 64px;
+    }
 }
 
 @media (max-width:1024px) {
     .section__wrapper__confidentiality {
         padding: 64px 0 48px 0;
         gap: 32px;
+        margin-bottom: 48px;
     }
 
     .section__wrapper__confidentiality__item__header {
         font-size: var(--font-s-28);
     }
 
+    .section__wrapper__mobile-version-description__header-text {
+        font-size: var(--font-s-40);
+    }
+
+    .section__wrapper__mobile-version-description__paragraph-text {
+        margin-bottom: 32px;
+    }
+
+}
+
+@media (max-width:680px) {
+    .section__wrapper__mobile-version-description {
+        overflow: hidden;
+    }
+
+    .section__wrapper__mobile-version-description__images img {
+        width: 677px;
+        height: 450px;
+    }
 }
 
 @media (max-width:640px) {
+    .section__wrapper__mobile-version-description__header-text {
+        font-size: var(--font-s-36);
+    }
+
+    .section__wrapper__mobile-version-description {
+        align-items: start;
+    }
+
     .section__wrapper__confidentiality {
         align-items: start;
     }
 
     .section__wrapper__confidentiality__item img {
         max-width: 64px;
+    }
+
+    .section__wrapper__mobile-version-description__paragraph-text {
+        text-align: start;
     }
 }
