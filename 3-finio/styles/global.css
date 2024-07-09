@@ -7,6 +7,9 @@
     --color-border-gray: #F1F2F5;
     --color-primary-black-text: #000;
     --color-secondary-black-text: rgba(78, 93, 124, 0.50);
+    --bg-grid-tag: #1ABC9C;
+    --color-grid-card-text: #4E5D7C;
+    --color-grid-tag-price: #FFC736;
     /* layout */
 
     --layout-width: calc(1402px - 48px);
@@ -14,6 +17,7 @@
     --width-100: 100%;
 
     /* font */
+    --font-s-15: 15px;
     --font-s-17: 17px;
     --font-s-18: 18px;
     --font-s-20: 20px;
@@ -33,8 +37,10 @@
 
     /* border */
 
+    --border-r-47: 47px;
     --border-r-34: 34px;
     --border-r-16: 16px;
+    --border-r-8: 8px;
 
 }
 

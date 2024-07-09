@@ -4,8 +4,6 @@
     display: flex;
     gap: 78px;
     padding: 126px 30px 81px 30px;
-    padding-top: 126px;
-    padding-bottom: 81px;
     border-bottom: 1px solid var(--color-border-gray);
     margin-bottom: 80px;
 }
