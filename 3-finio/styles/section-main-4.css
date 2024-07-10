@@ -120,4 +120,7 @@
     .section__wrapper__client-support__description__header-text + p {
         margin-bottom: 32px;
     }
+    .section__wrapper__client-support {
+        margin-bottom: 48px;
+    }
 }

@@ -70,3 +70,16 @@
     border-radius: var(--border-r-8);
     padding: 8px 16px;
 }
+.tariff_wrapper__item__content__hero__tag {
+    display: inline-flex;
+    padding: 4px 16px;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bg-grid-tag);
+    border-radius: var(--border-r-8);
+    color: var(--primary-color);
+    font-size: var(--font-s-15);
+    font-weight: var(--font-w-800);
+    line-height: var(--line-h-140);
+    margin-bottom: 16px;
+}
