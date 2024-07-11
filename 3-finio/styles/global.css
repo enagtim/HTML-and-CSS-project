@@ -10,6 +10,7 @@
     --bg-grid-tag: #1ABC9C;
     --color-grid-card-text: #4E5D7C;
     --color-grid-tag-price: #FFC736;
+    --color-arrow: #AECBFF;
     /* layout */
 
     --layout-width: calc(1402px - 48px);
@@ -37,6 +38,7 @@
 
     /* border */
 
+    --border-100: 100%;
     --border-r-47: 47px;
     --border-r-34: 34px;
     --border-r-16: 16px;

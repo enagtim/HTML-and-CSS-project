@@ -57,10 +57,12 @@
     border: none;
 
 }
+
 .tariff_wrapper__item__content__button_white {
     background-color: var(--primary-color);
     color: var(--accent-color);
 }
+
 #price_bg {
     font-size: var(--font-s-17);
     font-weight: var(--font-w-700);
@@ -70,6 +72,7 @@
     border-radius: var(--border-r-8);
     padding: 8px 16px;
 }
+
 .tariff_wrapper__item__content__hero__tag {
     display: inline-flex;
     padding: 4px 16px;
@@ -82,4 +85,28 @@
     font-weight: var(--font-w-800);
     line-height: var(--line-h-140);
     margin-bottom: 16px;
+}
+
+.feedback__wrapper__container__left__arrow {
+    cursor: pointer;
+    padding: 10px 16px 10px 12px;
+    height: 40px;
+    width: 40px;
+    background-color: var(--color-arrow);
+    border-radius: var(--border-100);
+}
+
+.feedback__wrapper__container__right__arrow {
+    cursor: pointer;
+    padding: 10px 12px 10px 16px;
+    height: 40px;
+    width: 40px;
+    background-color: var(--color-arrow);
+    border-radius: var(--border-100);
+}
+.feedback__wrapper__container__left__arrow:hover {
+    background-color: var(--primary-color);
+}
+.feedback__wrapper__container__right__arrow:hover {
+    background-color: var(--primary-color);
 }
