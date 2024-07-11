@@ -96,7 +96,7 @@
     border-radius: var(--border-100);
 }
 
-.feedback__wrapper__container__right__arrow {
+.feedback__wrapper__container__arrow__right {
     cursor: pointer;
     padding: 10px 12px 10px 16px;
     height: 40px;
@@ -107,6 +107,6 @@
 .feedback__wrapper__container__left__arrow:hover {
     background-color: var(--primary-color);
 }
-.feedback__wrapper__container__right__arrow:hover {
+.feedback__wrapper__container__arrow__right:hover {
     background-color: var(--primary-color);
 }

@@ -207,6 +207,10 @@
 }
 
 @media (max-width:640px) {
+    .tariff_wrapper {
+        margin-bottom: 64px;
+    }
+
     .tariff_desription__header {
         font-size: var(--font-s-36);
     }
@@ -230,6 +234,7 @@
     .tariff_wrapper {
         margin-bottom: 64px;
     }
+
     .tariff_wrapper__item {
         padding: 48px 24px;
     }
