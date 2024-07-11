@@ -11,6 +11,7 @@
     --color-grid-card-text: #4E5D7C;
     --color-grid-tag-price: #FFC736;
     --color-arrow: #AECBFF;
+    --bg-footer: #1A1D25;
     /* layout */
 
     --layout-width: calc(1402px - 48px);
