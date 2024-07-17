@@ -112,7 +112,6 @@
         margin-bottom: 32px;
     }
     .section_wrapper_3 button {
-        width: var(--width-100);
         margin-bottom: 48px;
     }
     .section_wrapper_3 img {
@@ -141,14 +140,11 @@
         width: var(--width-100);
         text-align: left;
     }
-    .section_wrapper_3 button {
-        width: var(--width-100);
-    }
 }
 @media (max-width:480px) {
     .section_wrapper_3 button {
         font-size: 16px;
-        width: var(--width-100);
+        width: 328px;
         padding: 12px 0;
     }
 }

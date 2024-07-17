@@ -31,9 +31,11 @@
 
 .tariff_wrapper {
     display: grid;
-    grid-template-columns: repeat(3, 369px);
+    grid-template-columns: repeat(auto-fit, minmax(328px, 369px));
     gap: 24px;
     margin-bottom: 80px;
+    width: 100%;
+    justify-content: center;
 }
 
 .tariff_wrapper__item__content__hero__tag_hidden {
@@ -187,9 +189,6 @@
 }
 
 @media (max-width:1200px) {
-    .tariff_wrapper {
-        grid-template-columns: repeat(1, 1fr);
-    }
 
     .tariff_wrapper__item__content__hero__paragraph_white {
         margin-bottom: 50px;
