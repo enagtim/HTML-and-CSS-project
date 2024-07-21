@@ -17,7 +17,7 @@
     --color-footer-secondary: rgba(255, 255, 255, 0.50);
     /* layout */
 
-    --layout-width: calc(1402px - 48px);
+    --layout-width: calc(1440px - 48px);
     --max-w-100: 100%;
     --width-100: 100%;
 

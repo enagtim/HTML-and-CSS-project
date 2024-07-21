@@ -92,7 +92,8 @@
     padding: 10px 16px 10px 12px;
     height: 40px;
     width: 40px;
-    background-color: var(--color-arrow);
+    background-color: var(--primary-color);
+    opacity: 0.6;
     border-radius: var(--border-100);
 }
 
@@ -101,12 +102,13 @@
     padding: 10px 12px 10px 16px;
     height: 40px;
     width: 40px;
-    background-color: var(--color-arrow);
+    background-color: var(--primary-color);
+    opacity: 0.6;
     border-radius: var(--border-100);
 }
 .feedback__wrapper__container__left__arrow:hover {
-    background-color: var(--primary-color);
+    opacity: 1;
 }
 .feedback__wrapper__container__arrow__right:hover {
-    background-color: var(--primary-color);
+    opacity: 1;
 }

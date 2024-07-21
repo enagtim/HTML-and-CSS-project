@@ -7,7 +7,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 40px 24px;
+    padding: 40px 0 40px 24px;
     margin: 0 auto;
 }
 .header__wrapper__logo {
@@ -42,6 +42,12 @@
     background: none;
     border: none;
 }
+@media (max-width: 1400px) {
+    .header__wrapper {
+        padding: 40px 24px;
+    }
+}
+
 @media (max-width: 1024px) {
     .header__wrapper {
         padding: 24px 0px;
