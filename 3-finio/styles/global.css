@@ -1,0 +1,63 @@
+:root {
+    /* color */
+    --accent-color: #357EFE;
+    --primary-color: #FFF;
+    --primary-color-white-dizabled: rgba(255, 255, 255, 0.80);
+    --color-header-border: #5593FE;
+    --color-border-gray: #F1F2F5;
+    --color-primary-black-text: #000;
+    --color-secondary-black-text: rgba(78, 93, 124, 0.50);
+    --bg-grid-tag: #1ABC9C;
+    --color-grid-card-text: #4E5D7C;
+    --color-grid-tag-price: #FFC736;
+    --color-arrow: #AECBFF;
+    --bg-footer: #1A1D25;
+    --footer-border-b: rgba(255, 255, 255, 0.08);
+    --color-footer-primary: rgb(255, 255, 255, 0.70);
+    --color-footer-secondary: rgba(255, 255, 255, 0.50);
+    /* layout */
+
+    --layout-width: calc(1440px - 48px);
+    --max-w-100: 100%;
+    --width-100: 100%;
+
+    /* font */
+    --font-s-15: 15px;
+    --font-s-17: 17px;
+    --font-s-18: 18px;
+    --font-s-20: 20px;
+    --font-s-24: 24px;
+    --font-s-28: 28px;
+    --font-s-32: 32px;
+    --font-s-34: 34px;
+    --font-s-36: 36px;
+    --font-s-40: 40px;
+    --font-s-48: 48px;
+    --line-h-140: 140%;
+    --line-h-120: 120%;
+    --font-w-500: 500;
+    --font-w-600: 600;
+    --font-w-700: 700;
+    --font-w-800: 800;
+    --font-w-900: 900;
+
+    /* border */
+
+    --border-100: 100%;
+    --border-r-47: 47px;
+    --border-r-34: 34px;
+    --border-r-16: 16px;
+    --border-r-8: 8px;
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    margin: 0;
+    min-width: 375px;
+}
